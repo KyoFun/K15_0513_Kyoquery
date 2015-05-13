@@ -1,0 +1,12 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td{margin: 0;padding: 0;}
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input{vertical-align: middle;}
+body{ background:#fff;font-size:12px; font-family:'微软雅黑'; color:#4d4d4d;}
+/*清浮动*/
+.clear:after { display: block; content: ' '; font-size: 0; height: 0; clear: both;}
+.clear { *zoom:1; }
+em,i{ font-style:normal;}
+/*页面公共样式*/
+a { text-decoration: none;}
+ul, ol, li { list-style: none;}
+img {vertical-align: middle; border: none;}
