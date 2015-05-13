@@ -6,7 +6,6 @@ body{ background:#fff;font-size:12px; font-family:'微软雅黑'; color:#4d4d4d;
 .clear:after { display: block; content: ' '; font-size: 0; height: 0; clear: both;}
 .clear { *zoom:1; }
 em,i{ font-style:normal;}
-/*页面公共样式*/
 a { text-decoration: none;}
 ul, ol, li { list-style: none;}
 img {vertical-align: middle; border: none;}
@@ -19,3 +18,15 @@ img {vertical-align: middle; border: none;}
 .KyoBox{border: 1px solid orangered; padding: 15px;}
 .KyoBox_Title{font-size: 15px; line-height: 21px;}
 .KyoDome_Box{border: 1px solid deepskyblue; padding: 10px;}
+
+
+.Bimglis{width: 946px; height: 300px; overflow: hidden;}
+.Bimgs{display: none;}
+
+.FocusImg{width: 840px; height: 160px; margin: 10px auto; overflow: hidden; position: relative;}
+.Fimglist{width: 2310px; position: absolute;}
+.Fimgs{width: 200px; height: 150px; padding:5px; float: left;}
+.Fimgson{background: salmon;}
+
+.Kbuttons{width: 150px; margin: 15px auto;}
+.kbtclass{font-size: 13px; background: dodgerblue; color: white; padding: 5px 15px;}
