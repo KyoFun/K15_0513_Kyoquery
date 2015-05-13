@@ -10,3 +10,12 @@ em,i{ font-style:normal;}
 a { text-decoration: none;}
 ul, ol, li { list-style: none;}
 img {vertical-align: middle; border: none;}
+
+.pd15{padding: 15px;}
+#KyoPage{width: 1000px; margin: 0 auto;}
+.Kheader{margin: 15px 0px; border: 1px solid orange;}
+.Kfooter{margin: 15px 0px; text-align: center; border: 1px solid darkorange;}
+
+.KyoBox{border: 1px solid orangered; padding: 15px;}
+.KyoBox_Title{font-size: 15px; line-height: 21px;}
+.KyoDome_Box{border: 1px solid deepskyblue; padding: 10px;}
