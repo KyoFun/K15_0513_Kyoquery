@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Kyoquery</title>
 		<link rel="stylesheet" type="text/css" href="css/Kyoquery.css"/>
+		<link rel="stylesheet" href="css/test.css" />
 	</head>
 	<body>
 		
@@ -83,6 +84,48 @@
 				</div>
 			</div>
 			
+			
+			<!--
+            	作者：1623785237@qq.com
+            	时间：2015-05-14
+            	描述：Banner 2
+            	
+            	1. 数字焦点
+            	2. 自动滚动
+            	3. 可暂停和开始
+            	4. 间隔状态
+            	5. 图片的缓冲加载（选做）
+            -->
+			<div class="KyoBox">
+				<p class="KyoBox_Title">Banner 2</p>
+				<div class="KyoDome_Box">
+					
+					<div class="Bannerlist">
+						<li class="Blistimgs"><img src="http://www.gbtags.com/gb/laitu/946x300&text=Hello 01 Img/FF6633/ffffff" alt="" /></li>
+						<li class="Blistimgs"><img src="http://www.gbtags.com/gb/laitu/946x300&text=Hello 02 Img/CC3366/ffffff" alt="" /></li>
+						<li class="Blistimgs"><img src="http://www.gbtags.com/gb/laitu/946x300&text=Hello 03 Img/33CCFF/ffffff" alt="" /></li>
+						<li class="Blistimgs"><img src="http://www.gbtags.com/gb/laitu/946x300&text=Hello 04 Img/FFFF66/ffffff" alt="" /></li>
+						<li class="Blistimgs"><img src="http://www.gbtags.com/gb/laitu/946x300&text=Hello 05 Img/66FF99/ffffff" alt="" /></li>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="KyoBox">
+				<p class="KyoBox_Title">图片加载</p>
+				<div id="LazyDiv1" class="KyoDome_Box">
+					<div><img class="lazy" src="img/bg1x.gif" data-original="http://ww3.sinaimg.cn/large/7e8b4ac8tw1es32t48pb3j21kw11xaju.jpg" width="946px" height="300px" /></div>
+					<div><img class="lazy" src="img/bg1x.gif" data-original="http://ww2.sinaimg.cn/large/7e8b4ac8tw1es32ta95haj21kw1kw1kx.jpg" width="946px" height="300px"/></div>
+					<div><img class="lazy" src="img/bg1x.gif" data-original="http://ww4.sinaimg.cn/large/7e8b4ac8tw1es32t70yqwj21z418g17p.jpg" width="946px" height="300px"/></div>
+					<div><img class="lazy" src="img/bg1x.gif" data-original="http://ww1.sinaimg.cn/large/7e8b4ac8tw1es32t586xqj21hc0u0467.jpg" width="946px" height="300px"/></div>					
+				</div>
+			</div>
+			
+			<div class="KyoBox">
+				<div class="textless">123</div>
+			</div>
+			
 			<!--
             	作者：1623785237@qq.com
             	时间：2015-05-13
@@ -96,6 +139,7 @@
 		</div>
 		
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/LazyLoad.js" ></script>
 		<script type="text/javascript" src="js/Kquery.js" ></script>
 	</body>
 </html>

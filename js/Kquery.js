@@ -13,7 +13,7 @@
 		ImgMoveNum=1,
 		ImgMlength=Imglength-3,
 		Fimgwidth=210,
-		ImgOverMove=210*Imglength-210*4,
+		ImgOverMove=Fimgwidth*Imglength-Fimgwidth*4,
 		ImgMoveValue=0;
 	Bimgs.eq(Nowindex).fadeIn();
 	Fimgs.eq(Nowindex).addClass("Fimgson");
@@ -52,4 +52,26 @@
 			"left":-ImgMoveValue+"px"
 		});
 	};
+	
+	
+	function randomImg(a){
+		var colorletters="01234567890ABCDEF".split(""),
+			color="";
+		for(var i=0;i<6;i++){
+			color+=colorletters[Math.floor(Math.random()*16)];
+		};
+		return color;
+	};
+	
+	
+	for(var imgi=0;imgi<4;imgi++){
+		$("#LazyDiv1").append('<img class="lazy" src="img/bg1x.gif" data-original="http://www.gbtags.com/gb/laitu/946x300&text=Hello 01 Img/'+randomImg()+'/ffffff" />');
+	};
+	
+	
+
+	$("#LazyDiv1 img").lazyload({
+		effect:"fadeIn"
+	});
+	
 })(jQuery);
